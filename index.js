@@ -15,6 +15,10 @@ app.get('/dashboard', (req, res) => {
     res.send(`Ini adalah dashboard dengan jam sekarang ${new Date().toLocaleTimeString()}.`);
 });
 
+app.get('/admin', (req, res) => {
+    res.send(`Ini adalah admin dengan jam sekarang ${new Date().toLocaleTimeString()}.`);
+});
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
