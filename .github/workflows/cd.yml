@@ -22,7 +22,6 @@ jobs:
           script: |
             cd /home/syaflab/project/ci-cd
             git pull origin develop
-            git status
             npm install
             npm run build
             npm run start
