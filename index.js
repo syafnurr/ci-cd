@@ -19,7 +19,7 @@ app.get('/admin', (req, res) => {
     res.send(`Ini adalah admin dengan jam sekarang ${new Date().toLocaleTimeString()}.`);
 });
 
-app.get('/youtube', (req, res) => {
+app.get('/testing', (req, res) => {
     res.send(`Ini adalah admin dengan jam sekarang ${new Date().toLocaleTimeString()}.`);
 });
 
