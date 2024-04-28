@@ -32,7 +32,7 @@ commit_message=${commit_message%,}
 
 # Buat commit dengan pesan yang deskriptif
 git add .
-git commit -m "Update: $commit_message"
+git commit -m "Update: $changes"
 
 # Lakukan push ke repository GitHub
 git push origin staging # Ganti 'main' dengan nama branch yang Anda gunakan jika berbeda
