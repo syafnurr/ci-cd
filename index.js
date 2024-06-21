@@ -20,6 +20,3 @@ app.listen(port, () => {
 });
 
 // Testing
-// Delete file
-// Update file
-// Create file
