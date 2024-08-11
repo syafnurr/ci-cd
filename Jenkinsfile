@@ -3,7 +3,7 @@ agent any
   stages{
     stage ('Build'){
       steps{
-        echo "Branch develop"
+        echo "Branch staging"
       }
     }
   }
